@@ -1,0 +1,315 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 111111 2902228212@qq.com, 11111, LIC=47GU5-GFFY8-8TU3P-M9GHV-ZNP02-VLALJ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+c:\Users\29022\Desktop\WATCH\TREKK_Watch\MDK-ARM\TREKK_Watch.uvprojx
+Project File Date:  05/09/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'TREKK_Watch'
+compiling rtc.c...
+compiling HWDataAccess.c...
+..\USER\Func\Src\HWDataAccess.c(165): warning:  #111-D: statement is unreachable
+  		return 0;
+..\USER\Func\Src\HWDataAccess.c(262): warning:  #111-D: statement is unreachable
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c(262): warning:  #68-D: integer conversion resulted in a change of sign
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c(317): warning:  #111-D: statement is unreachable
+  		return 0;
+..\USER\Func\Src\HWDataAccess.c(356): warning:  #111-D: statement is unreachable
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c(356): warning:  #68-D: integer conversion resulted in a change of sign
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c(398): warning:  #111-D: statement is unreachable
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c(398): warning:  #68-D: integer conversion resulted in a change of sign
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c(421): warning:  #111-D: statement is unreachable
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c(421): warning:  #68-D: integer conversion resulted in a change of sign
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c(459): warning:  #111-D: statement is unreachable
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c(459): warning:  #68-D: integer conversion resulted in a change of sign
+  	return -1;
+..\USER\Func\Src\HWDataAccess.c: 12 warnings, 0 errors
+compiling main.c...
+compiling ui_ChargPage.c...
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(37): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(value_strbuf,"%02d",ui_TimeMinuteValue);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(38): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_ChargPagebMinLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(44): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(value_strbuf,"%02d",ui_TimeHourValue);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(45): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_ChargPagebHourLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(52): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(value_strbuf,"%2d%%",ui_BatArcValue);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(53): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_ChargPageBatNum, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(108): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(value_strbuf,"%2d%%",ui_BatArcValue);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(109): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_ChargPageBatNum, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(120): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(value_strbuf,"%02d",ui_TimeHourValue);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(121): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_ChargPagebHourLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(132): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(value_strbuf,"%02d",ui_TimeMinuteValue);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c(133): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_ChargPagebMinLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_ChargPage.c: 12 warnings, 0 errors
+compiling ui_CalendarPage.c...
+compiling user_DataSaveTask.c...
+compiling user_ChargCheckTask.c...
+compiling user_SensUpdateTask.c...
+..\BSP\EM7028\HrAlgorythm.h(11): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\USER\Tasks\Src\user_SensUpdateTask.c(84): warning:  #177-D: variable "dat"  was declared but never referenced
+  	uint16_t dat=0;
+..\USER\Tasks\Src\user_SensUpdateTask.c(127): warning:  #177-D: variable "value_strbuf"  was declared but never referenced
+  			uint8_t value_strbuf[5];
+..\USER\Tasks\Src\user_SensUpdateTask.c(118): warning:  #177-D: variable "value_strbuf"  was declared but never referenced
+  	uint8_t value_strbuf[6];
+..\USER\Tasks\Src\user_SensUpdateTask.c: 4 warnings, 0 errors
+compiling user_MessageSendTask.c...
+..\USER\Tasks\Src\user_MessageSendTask.c(69): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		&& TimeSetMessage.nowtime.Hours>=0 && TimeSetMessage.nowtime.Hours<=23
+..\USER\Tasks\Src\user_MessageSendTask.c(70): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		&& TimeSetMessage.nowtime.Minutes>=0 && TimeSetMessage.nowtime.Minutes<=59
+..\USER\Tasks\Src\user_MessageSendTask.c(71): warning:  #186-D: pointless comparison of unsigned integer with zero
+  		&& TimeSetMessage.nowtime.Seconds>=0 && TimeSetMessage.nowtime.Seconds<=59)
+..\USER\Tasks\Src\user_MessageSendTask.c(78): warning:  #940-D: missing return statement at end of non-void function "TimeFormat_Get" 
+  }
+..\USER\Tasks\Src\user_MessageSendTask.c(95): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			if(!strcmp(HardInt_receive_str,"OV"))
+..\USER\Tasks\Src\user_MessageSendTask.c(99): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			else if(!strcmp(HardInt_receive_str,"OV+VERSION"))
+..\USER\Tasks\Src\user_MessageSendTask.c(103): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			else if(!strcmp(HardInt_receive_str,"OV+SEND"))
+..\USER\Tasks\Src\user_MessageSendTask.c(122): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			else if(strlen(HardInt_receive_str)==20)
+..\USER\Tasks\Src\user_MessageSendTask.c(127): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				if(ui_APPSy_EN && !strcmp(cmd,"OV+ST"))
+..\USER\Tasks\Src\user_MessageSendTask.c: 9 warnings, 0 errors
+compiling user_RunModeTasks.c...
+..\USER\Tasks\Src\user_RunModeTasks.c(108): warning:  #223-D: function "SystemClock_Config" declared implicitly
+  			SystemClock_Config();
+..\USER\Tasks\Src\user_RunModeTasks.c: 1 warning, 0 errors
+compiling user_HardwareInitTask.c...
+..\USER\Tasks\Src\user_HardwareInitTask.c(168): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(lcd_buf_str, "OV-Watch V%d.%d.%d", watch_version_major(), watch_version_minor(), watch_version_patch());
+..\USER\Tasks\Src\user_HardwareInitTask.c: 1 warning, 0 errors
+compiling ui_CompassPage.c...
+..\USER\GUI_App\Screens\Src\ui_CompassPage.c(34): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,":%d", HWInterface.Ecompass.direction);
+..\USER\GUI_App\Screens\Src\ui_CompassPage.c(35): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_CompassDirLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_CompassPage.c(38): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,":%dm", HWInterface.Barometer.altitude);
+..\USER\GUI_App\Screens\Src\ui_CompassPage.c(39): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_EnvAltitudeLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_CompassPage.c(93): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(value_strbuf,":%dm", HWInterface.Barometer.altitude);
+..\USER\GUI_App\Screens\Src\ui_CompassPage.c(94): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_EnvAltitudeLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_CompassPage.c(116): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(value_strbuf,":%d", HWInterface.Ecompass.direction);
+..\USER\GUI_App\Screens\Src\ui_CompassPage.c(117): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_CompassDirLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_CompassPage.c: 8 warnings, 0 errors
+compiling ui_EnvPage.c...
+..\USER\GUI_App\Screens\Src\ui_EnvPage.c(31): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%d", HWInterface.AHT21.temperature);
+..\USER\GUI_App\Screens\Src\ui_EnvPage.c(32): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_EnvTempNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_EnvPage.c(33): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%d", HWInterface.AHT21.humidity);
+..\USER\GUI_App\Screens\Src\ui_EnvPage.c(34): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_EnvHumiNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_EnvPage.c(73): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(strbuf,"%d",HWInterface.AHT21.temperature);
+..\USER\GUI_App\Screens\Src\ui_EnvPage.c(74): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_EnvTempNumLabel, strbuf);
+..\USER\GUI_App\Screens\Src\ui_EnvPage.c(83): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  		sprintf(strbuf,"%d", HWInterface.AHT21.humidity);
+..\USER\GUI_App\Screens\Src\ui_EnvPage.c(84): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_EnvHumiNumLabel, strbuf);
+..\USER\GUI_App\Screens\Src\ui_EnvPage.c: 8 warnings, 0 errors
+compiling ui_DateTimeSetPage.c...
+compiling ui_SPO2Page.c...
+..\USER\GUI_App\Screens\Src\ui_SPO2Page.c(24): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf, "%d", HWInterface.HR_meter.SPO2);
+..\USER\GUI_App\Screens\Src\ui_SPO2Page.c(25): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_SPO2NumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_SPO2Page.c(40): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf, "%d", HWInterface.HR_meter.SPO2);
+..\USER\GUI_App\Screens\Src\ui_SPO2Page.c(41): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_SPO2NumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_SPO2Page.c: 4 warnings, 0 errors
+compiling ui_HRPage.c...
+..\USER\GUI_App\Screens\Src\ui_HRPage.c(27): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf, "%d", HWInterface.HR_meter.HrRate);
+..\USER\GUI_App\Screens\Src\ui_HRPage.c(28): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_HRPageNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HRPage.c(45): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf, "%d", HWInterface.HR_meter.HrRate);
+..\USER\GUI_App\Screens\Src\ui_HRPage.c(46): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_HRPageNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HRPage.c: 4 warnings, 0 errors
+compiling ui_GameMemPage.c...
+..\USER\GUI_App\Screens\Src\ui_GameMemPage.c(69): warning:  #186-D: pointless comparison of unsigned integer with zero
+  								if(Game_Mem.previous_id >= 0 && Game_Mem.previous_id < 17 )
+..\USER\GUI_App\Screens\Src\ui_GameMemPage.c(83): warning:  #186-D: pointless comparison of unsigned integer with zero
+          if((dsc->id >= 0) && (dsc->label_dsc))
+..\USER\GUI_App\Screens\Src\ui_GameMemPage.c(99): warning:  #167-D: argument of type "char **" is incompatible with parameter of type "const char **"
+          lv_btnmatrix_set_map(ui_GameMem_BtnM, Game_Mem.btnm_map);
+..\USER\GUI_App\Screens\Src\ui_GameMemPage.c(112): warning:  #167-D: argument of type "char **" is incompatible with parameter of type "const char **"
+      lv_btnmatrix_set_map(ui_GameMem_BtnM, Game_Mem.btnm_map);
+..\USER\GUI_App\Screens\Src\ui_GameMemPage.c(151): warning:  #68-D: integer conversion resulted in a change of sign
+      Game_Mem.previous_id = -1;
+..\USER\GUI_App\Screens\Src\ui_GameMemPage.c(152): warning:  #68-D: integer conversion resulted in a change of sign
+      Game_Mem.present_id = -1;
+..\USER\GUI_App\Screens\Src\ui_GameMemPage.c: 6 warnings, 0 errors
+compiling ui_Game2048Page.c...
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(106): warning:  #167-D: argument of type "char **" is incompatible with parameter of type "const char **"
+  							lv_btnmatrix_set_map(ui_Game2048BtnM, Game_2048.btnm_map);
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(108): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  							sprintf(strbuf,"Score:%d",Game_2048.score);
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(109): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  							lv_label_set_text(ui_Game2048ScLabel,strbuf);
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(125): warning:  #186-D: pointless comparison of unsigned integer with zero
+          if((dsc->id >= 0) && (dsc->label_dsc))
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(154): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+        sprintf(strbuf,"Score:%d",Game_2048.score);
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(155): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+        lv_label_set_text(ui_Game2048ScLabel,strbuf);
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(189): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(strbuf,"Score:%d",Game_2048.score);
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(190): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_Game2048ScLabel,strbuf);
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(220): warning:  #167-D: argument of type "char **" is incompatible with parameter of type "const char **"
+      lv_btnmatrix_set_map(ui_Game2048BtnM, Game_2048.btnm_map);
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(547): warning:  #68-D: integer conversion resulted in a change of sign
+      {return -1;}
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c(556): warning:  #68-D: integer conversion resulted in a change of sign
+      {return -1;}
+..\USER\GUI_App\Screens\Src\ui_Game2048Page.c: 11 warnings, 0 errors
+compiling ui_SetPage.c...
+compiling ui_HomePage.c...
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(98): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(value_strbuf,"%02d",ui_TimeMinuteValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(99): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_TimeMinuteLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(105): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(value_strbuf,"%2d",ui_TimeHourValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(106): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_TimeHourLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(113): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(value_strbuf,"%2d-%02d",ui_DateMonthValue,ui_DateDayValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(114): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_DateLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(123): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(value_strbuf,"%2d-%02d",ui_DateMonthValue,ui_DateDayValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(124): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_DateLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(132): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(value_strbuf,"%2d%%",ui_BatArcValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(133): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_BatNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(139): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(value_strbuf,"%d",ui_StepNumValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(140): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_StepNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(147): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+          sprintf(value_strbuf,"%d",ui_HomePageTempValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(148): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_TempNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(155): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(value_strbuf,"%d",ui_HomePageHumiValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(156): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  				lv_label_set_text(ui_HumiNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(283): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%2d",ui_TimeHourValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(284): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_TimeHourLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(304): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%02d",ui_TimeMinuteValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(305): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_TimeMinuteLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(346): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%2d%%",ui_BatArcValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(347): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_BatNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(356): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%2d-%02d",ui_DateMonthValue,ui_DateDayValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(357): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_DateLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(401): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%d",ui_StepNumValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(402): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_StepNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(455): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%d",ui_HomePageTempValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(456): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_TempNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(497): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%d",ui_HomePageHumiValue);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(498): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_HumiNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(539): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+      sprintf(value_strbuf,"%d", HWInterface.HR_meter.HrRate);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c(540): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+      lv_label_set_text(ui_HRNumLabel, value_strbuf);
+..\USER\GUI_App\Screens\Src\ui_HomePage.c: 32 warnings, 0 errors
+linking...
+Program Size: Code=17584 RO-data=520 RW-data=152 ZI-data=20392  
+FromELF: creating hex file...
+"TREKK_Watch\TREKK_Watch.axf" - 0 Error(s), 112 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.1.2-dev.pack
+                Keil.STM32F4xx_DFP.3.1.2-dev
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_TREKK_Watch
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Build Time Elapsed:  00:00:20
+</pre>
+</body>
+</html>

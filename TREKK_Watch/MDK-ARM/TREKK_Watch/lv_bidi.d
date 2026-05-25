@@ -1,0 +1,17 @@
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_bidi.c
+trekk_watch\lv_bidi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_bidi.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_internal.h
+trekk_watch\lv_bidi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../lv_conf_kconfig.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../../../lv_conf.h
+trekk_watch\lv_bidi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_txt.h
+trekk_watch\lv_bidi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_area.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../font/lv_font.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../font/lv_symbol_def.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_printf.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\lv_types.h
+trekk_watch\lv_bidi.o: ..\Middlewares\LVGL\GUI\lvgl\src\misc\../misc/lv_mem.h
+trekk_watch\lv_bidi.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

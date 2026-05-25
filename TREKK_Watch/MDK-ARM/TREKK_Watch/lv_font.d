@@ -1,0 +1,16 @@
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\lv_font.c
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\lv_font.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../lv_conf_internal.h
+trekk_watch\lv_font.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../lv_conf_kconfig.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../../../lv_conf.h
+trekk_watch\lv_font.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+trekk_watch\lv_font.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\lv_symbol_def.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_area.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_utils.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_log.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_types.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_assert.h
+trekk_watch\lv_font.o: ..\Middlewares\LVGL\GUI\lvgl\src\font\../misc/lv_mem.h
+trekk_watch\lv_font.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
